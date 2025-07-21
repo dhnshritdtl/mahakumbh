@@ -13,7 +13,7 @@ import 'authentication_state.dart';
 
 class AuthBloc extends Bloc<AuthenticationEvent, AuthenticationState> {
 
-
+// This is demo
   final UserRepository? userRepository;
   AuthBloc({this.userRepository}) : super(InitialAuthenticationState()){
 
